@@ -1,0 +1,18 @@
+body {
+  background-color: hsl(266, 37%, 70%);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input, select {
+  width: 15%;
+}
+button {
+  width: 8%;
+}
+.prettyLady {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+}
