@@ -1,0 +1,89 @@
+body {
+  background-color: hsla(40, 70%, 50%, 0.7);;
+}
+header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.small-logo {
+  height: 12vh;
+}
+
+.search-icon {
+  height: 5vh;
+  margin-right: 4vw;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-picture {
+  height: 20vh;
+  width: 20vh;
+  margin-top: 5vh;
+  border-radius: 50%;
+}
+.features-container {
+  display: flex;
+  justify-content: center;
+}
+.profile-features {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  height: 50vh;
+}
+
+.top-row-features {
+  display: flex;
+}
+
+.features-photos {
+  height: 25vh;
+  width: 42.5vw;
+  background-color: grey;
+  border-top-left-radius: 8%;
+}
+
+.features-discussions {
+  height: 25vh;
+  width: 42.5vw;
+  background-color: aqua;
+  border-top-right-radius: 8%;
+}
+
+.bottom-row-features {
+  display: flex;
+}
+
+.features-box {
+  height: 25vh;
+  width: 28.3vw;
+  background-color: pink;
+  border-bottom-left-radius: 8%;
+}
+
+.features-hive {
+  height: 25vh;
+  width: 28.4vw;
+  background-color: maroon;
+}
+
+.features-starred {
+  height: 25vh;
+  width: 28.3vw;
+  background-color: goldenrod;
+  border-bottom-right-radius: 8%;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+}
