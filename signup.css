@@ -45,6 +45,7 @@ label {
 button {
   width: 8vw;
   margin: 10px;
+  margin-left: 10vw;
   /*justify-content: flex-end;*/
 }
 
@@ -52,6 +53,7 @@ button {
   border-radius: 50%;
   height: 5rem;
   width: 5rem;
+  margin-left: 10vw;
 }
 
 .butt {
