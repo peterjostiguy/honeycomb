@@ -1,0 +1,51 @@
+html {
+
+}
+
+header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.small-logo {
+  height: 12vh;
+}
+
+button {
+  height: 6vh;
+}
+
+.small-login {
+  margin-left: 50vw;
+}
+
+.search-icon {
+  height: 5vh;
+  margin-right: 4vw;
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(http://i.vimeocdn.com/video/481833838_1280x720.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.banner-popup {
+  border: solid 5px gray;
+  width: 40vw;
+  align-self: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
