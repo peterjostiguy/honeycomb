@@ -17,10 +17,12 @@ header {
 
 h1 {
   margin-left: 15vw;
+  font-family: sans-serif;
 }
 
 h2 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gray;
+  font-family: sans-serif;
 }
 
 .form {
@@ -40,6 +42,7 @@ input, select {
 
 label {
   margin-left: 10vw;
+  font-family: sans-serif;
 }
 
 button {
@@ -68,4 +71,18 @@ img {
 
 .nameTop {
   margin-top: 10px;
+}
+
+button {
+  background-color: mistyrose;
+  border: none;
+  box-shadow: 1px 1px 1px darkgray;
+  font-weight: bold;
+  color: gray;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: hsla(6, 100%, 94%, .4)
 }
