@@ -1,38 +1,88 @@
+header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.small-logo {
+  height: 12vh;
+}
+
+.search-icon {
+  height: 5vh;
+  margin-right: 4vw;
+}
+
+h1 {
+  margin-left: 15vw;
+  font-family: sans-serif;
+}
+
+h2 {
+  border-bottom: 1px solid gray;
+  font-family: sans-serif;
+}
 
 .form {
   display: flex;
   flex-direction: column;
-  border: .15rem solid black;
-  width: 20vw;
-
+  margin-left: 15vw;
+  width: 50vw;
 }
+
 input, select {
   width: 15vw;
   margin: 10px;
+  margin-left: 10vw;
   /*margin: 1rem;
   padding: 1rem;*/
 }
+
 label {
-  margin-left: 10px;
+  margin-left: 10vw;
+  font-family: sans-serif;
 }
+
 button {
   width: 8vw;
   margin: 10px;
+  margin-left: 10vw;
   /*justify-content: flex-end;*/
 }
+
 .prettyLady {
   border-radius: 50%;
   height: 5rem;
   width: 5rem;
+  margin-left: 10vw;
 }
+
 .butt {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
+
 img {
   margin: 10px;
 }
+
 .nameTop {
   margin-top: 10px;
+}
+
+button {
+  background-color: mistyrose;
+  border: none;
+  box-shadow: 1px 1px 1px darkgray;
+  font-weight: bold;
+  color: gray;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: hsla(6, 100%, 94%, .4)
 }
