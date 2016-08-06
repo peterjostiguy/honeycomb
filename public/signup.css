@@ -86,3 +86,7 @@ button {
 button:hover {
   background-color: hsla(6, 100%, 94%, .4)
 }
+
+.loginbutton {
+    margin-left: 15vw;
+}
