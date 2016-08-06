@@ -1,16 +1,22 @@
 body {
-  background-color: hsla(40, 70%, 50%, 0.7);;
+  background-color: hsla(6, 100%, 94%, .1);
 }
+
 header {
   height: 12vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  box-shadow: 2px 2px 2px gray;
 }
 
 .small-logo {
   height: 12vh;
+}
+
+.small-logout {
+  margin-left: 60vw;
 }
 
 .search-icon {
@@ -29,11 +35,14 @@ header {
   width: 20vh;
   margin-top: 5vh;
   border-radius: 50%;
+  box-shadow: 2px 2px 2px darkgray;
 }
+
 .features-container {
   display: flex;
   justify-content: center;
 }
+
 .profile-features {
   display: flex;
   flex-direction: column;
@@ -49,14 +58,14 @@ header {
   height: 25vh;
   width: 42.5vw;
   background-color: grey;
-  border-top-left-radius: 8%;
+  border-top-left-radius: 4%;
 }
 
 .features-discussions {
   height: 25vh;
   width: 42.5vw;
   background-color: aqua;
-  border-top-right-radius: 8%;
+  border-top-right-radius: 4%;
 }
 
 .bottom-row-features {
@@ -67,7 +76,7 @@ header {
   height: 25vh;
   width: 28.3vw;
   background-color: pink;
-  border-bottom-left-radius: 8%;
+  border-bottom-left-radius: 4%;
 }
 
 .features-hive {
@@ -80,10 +89,28 @@ header {
   height: 25vh;
   width: 28.3vw;
   background-color: goldenrod;
-  border-bottom-right-radius: 8%;
+  border-bottom-right-radius: 4%;
 }
 
 .feature {
   display: flex;
   justify-content: center;
+}
+
+
+button {
+  background-color: mistyrose;
+  border: none;
+  box-shadow: 1px 1px 1px darkgray;
+  font-weight: bold;
+  color: gray;
+  height: 6vh;
+}
+
+button:hover {
+  background-color: hsla(6, 100%, 94%, .4)
+}
+
+h3  {
+  font-family: 'Parisienne', cursive;
 }
