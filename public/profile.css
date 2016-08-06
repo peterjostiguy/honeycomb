@@ -38,7 +38,7 @@ header {
   box-shadow: 2px 2px 2px darkgray;
 }
 
-.features-container {
+/*.features-container {
   display: flex;
   justify-content: center;
 }
@@ -80,8 +80,6 @@ header {
 }
 
 .features-hive {
-  height: 25vh;
-  width: 28.4vw;
   background-color: maroon;
 }
 
@@ -91,13 +89,25 @@ header {
   background-color: goldenrod;
   border-bottom-right-radius: 4%;
 }
+*/
 
-.feature {
+.bottom-row-features, .top-row-features {
   display: flex;
-  justify-content: center;
 }
 
+.upper-row-features {
+  margin-left: 250px;
+  margin-top: -220px;
+}
+.bottom-row-features {
+  margin-left: 550px;
+  margin-top: -80px;
+}
 
+.top-row-features{
+  margin-left: 100px;
+  margin-top: -80px
+}
 button {
   background-color: mistyrose;
   border: none;
@@ -113,4 +123,39 @@ button:hover {
 
 h3  {
   font-family: 'Parisienne', cursive;
+}
+
+.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #64C7CC;
+  margin: 86.60px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #64C7CC;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
+}
+
+.features-starred{
+  background-color: goldenrod;
+}
+.features-hive {
+  background-color: maroon;
 }
