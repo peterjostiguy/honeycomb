@@ -2,15 +2,25 @@ body {
   background-color: hsla(6, 100%, 94%, .1);
 
 }
+
+header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 2px 2px 2px gray;
+  margin: 8px;
+}
+
 .wrapper {
   height: 100vh;
   /*width: 40vw;*/
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
+
 .logOutBox {
   height: 25vh;
   width: 50vw;
@@ -21,23 +31,15 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 1rem;
-
 }
+
 h1 {
   font-size: 2.5rem;
   font-family: sans-serif;
   font-family:'Parisienne', cursive;
   margin: .75rem;
 }
-header {
-  height: 12vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  position: absolute;
-  width: 100%;
-}
+
 .small-logo {
   height: 12vh;
 }

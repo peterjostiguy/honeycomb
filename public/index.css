@@ -48,10 +48,9 @@ header {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family:'Parisienne', cursive;
   margin: .75rem;
-
 }
 
 h2 {
@@ -79,4 +78,19 @@ button {
 
 button:hover {
   background-color: hsla(6, 100%, 94%, .4);
+}
+
+
+.banner-popup2 {
+  border: solid 5px mistyrose;
+  width: 75vw;
+  align-self: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 3px 3px 3px gray;
 }

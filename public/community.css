@@ -38,7 +38,7 @@ header {
   box-shadow: 2px 2px 2px darkgray;
 }
 
-/*.features-container {
+.features-container {
   display: flex;
   justify-content: center;
 }
@@ -80,6 +80,8 @@ header {
 }
 
 .features-hive {
+  height: 25vh;
+  width: 28.4vw;
   background-color: maroon;
 }
 
@@ -89,25 +91,13 @@ header {
   background-color: goldenrod;
   border-bottom-right-radius: 4%;
 }
-*/
 
-.bottom-row-features, .top-row-features {
+.feature {
   display: flex;
+  justify-content: center;
 }
 
-.upper-row-features {
-  margin-left: 250px;
-  margin-top: -220px;
-}
-.bottom-row-features {
-  margin-left: 550px;
-  margin-top: -80px;
-}
 
-.top-row-features{
-  margin-left: 100px;
-  margin-top: -80px
-}
 button {
   background-color: mistyrose;
   border: none;
@@ -125,42 +115,75 @@ h3  {
   font-family: 'Parisienne', cursive;
 }
 
-.hexagon {
-  position: relative;
-  width: 300px;
-  height: 173.21px;
-  background-color: goldenrod;
-  margin: 86.60px 0;
+.post {
+  border: solid 5px mistyrose;
+  width: 60vw;
+  align-self: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 3px 3px 3px gray;
 }
 
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 150px solid transparent;
-  border-right: 150px solid transparent;
+main {
+  display: flex;
+  flex-direction: column;
 }
 
-.hexagon:before {
-  bottom: 100%;
-  border-bottom: 86.60px solid goldenrod;
+.postAuthorPic {
+  height: 3rem;
+  margin: 2px;
 }
 
-.hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 86.60px solid goldenrod;
+.postAuthor {
+    font-family:'Parisienne', cursive;
+    margin: 2px;
 }
 
-/*.features-starred{
-  background-color: goldenrod;
-}*/
+.postTime {
+  font-size: .65rem;
+  font-family: sans-serif;
+  margin: 2px;
+}
 
-/*.features-hive {
-  background-color: maroon;
-}*/
+.postContent {
+    font-family: sans-serif;
+}
 
-.small-community {
-  margin-left: 50vw;
+.likeImage {
+  height: 1.5rem;
+}
+
+.like {
+  display: flex;
+  flex-direction: row;
+}
+
+.likeAmount {
+  margin: .25rem;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: goldenrod;
+  font-family: sans-serif;
+  font-size: .9rem;
+  margin-top: 1rem;
+}
+
+.comments {
+  font-family: sans-serif;
+}
+
+.commentsAuthor {
+  font-family:'Parisienne', cursive;
 }
