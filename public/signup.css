@@ -45,13 +45,6 @@ label {
   font-family: sans-serif;
 }
 
-button {
-  width: 8vw;
-  margin: 10px;
-  margin-left: 10vw;
-  /*justify-content: flex-end;*/
-}
-
 .prettyLady {
   border-radius: 50%;
   height: 5rem;
@@ -81,6 +74,9 @@ button {
   color: gray;
   padding: 10px;
   font-size: 1rem;
+  width: 8vw;
+  margin: 10px;
+  margin-left: 10vw;
 }
 
 button:hover {
@@ -90,6 +86,8 @@ button:hover {
 
 .loginbutton {
     margin-left: 15vw;
+    display: block;
+}
 
 .queens-row {
   display: flex;
@@ -101,6 +99,8 @@ button:hover {
 
 .queen-selector {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 h3 {
@@ -109,12 +109,28 @@ h3 {
 }
 
 .radio {
-  margin: 0
+  margin: 0;
 }
 
 .text {
   margin-top: -1vh;
   margin-left: 1vw;
   font-size: 2vh;
+}
 
+button.login-home {
+  margin: 0;
+  margin-left: 50vw;
+}
+
+.small-signup {
+  margin-left: 50vw;
+}
+
+input.radio {
+  width: 7vw;
+}
+
+p {
+  font-family: sans-serif;
 }

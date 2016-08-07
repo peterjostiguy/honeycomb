@@ -129,7 +129,7 @@ h3  {
   position: relative;
   width: 300px;
   height: 173.21px;
-  background-color: #64C7CC;
+  background-color: goldenrod;
   margin: 86.60px 0;
 }
 
@@ -144,18 +144,23 @@ h3  {
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 86.60px solid #64C7CC;
+  border-bottom: 86.60px solid goldenrod;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 86.60px solid #64C7CC;
+  border-top: 86.60px solid goldenrod;
 }
 
-.features-starred{
+/*.features-starred{
   background-color: goldenrod;
-}
-.features-hive {
+}*/
+
+/*.features-hive {
   background-color: maroon;
+}*/
+
+.small-community {
+  margin-left: 50vw;
 }
